@@ -1,0 +1,35 @@
+.navbar {
+ 
+    margin-bottom: 0;
+}
+
+.icon-bar {
+}
+
+body {
+}
+
+#logo-section {
+    padding-top: 8vh;
+    padding-bottom:10vh;
+    background: url(img/corrosion.jpg), no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: Arial;
+}
+
+#About {
+    padding: 10px 50px 10px 50px;
+}
+
+#Services {
+    padding: 10px 50px 10px 50px;
+}
+
+#Contact {
+    background-color: #696969;
+    padding: 10px 50px 10px 50px
+}
