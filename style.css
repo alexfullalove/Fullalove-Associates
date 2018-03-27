@@ -7,29 +7,37 @@
 }
 
 body {
+    font-family: sans-serif;
 }
 
 #logo-section {
-    padding-top: 8vh;
-    padding-bottom:10vh;
+    min-height: 50vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    text-align: center;
     background: url(img/corrosion.jpg), no-repeat;
 }
 
 h1 {
     font-size: 50px;
     color: white;
-    font-family: Arial;
+}
+
+p {
+    text-align: justify; 
 }
 
 #About {
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px 15px 50px;
 }
 
 #Services {
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px 15px 50px;
 }
 
 #Contact {
     background-color: #696969;
-    padding: 10px 50px 10px 50px
+    padding: 10px 50px 15px 50px;
 }
+
+@media only screen and (max-width:768px){h2, h3, h4, p {text-align:center;}}
